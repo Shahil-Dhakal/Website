@@ -35,13 +35,13 @@ img.icon{
     margin-top: 100px;
     display: block;
 }
-h1.name{
+h4.name{
     text-align: center;
     font-size: large;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-shadow: 2px 2px red;
     font-family: Georgia, serif;
-    line-height: 2px;
+    /* line-height: 2px; */
 }
 h4.name:hover{
     color: black;
