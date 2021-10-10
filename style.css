@@ -65,13 +65,13 @@ div.intro{
 .nav_link{
     color: black;
 }
-.nav_link:hover{
+/* .nav_link:hover{
     font-size: larger;
     border: 1px solid darkblue;
     border-bottom: none;
     text-shadow: 2px 2px darkred;
     transition: 1s ease;
-}
+} */
 .home_icon{
     color: black;
     text-shadow: 3px 3px darkred;
