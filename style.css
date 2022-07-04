@@ -1,0 +1,70 @@
+*
+{
+    background-color: black;
+}
+.image
+{
+    height: 300px;
+    width: 200;
+    border-radius: 300px;
+    border-top: 3px solid white;
+    border-bottom: 2px solid red;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.name
+{
+    position: inherit;
+    text-align: center;
+    color: red;
+    font-weight: 200;
+    letter-spacing: 4px;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bio
+{
+    font-size: 11px;
+    text-align: center;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.intro
+{
+    line-height: 0.2;
+}
+.form
+{
+    color: red;
+    text-align: center;
+    margin-top: 90px;
+}
+.input
+{
+    color: white;
+}
+.buttons
+{
+    color: red;
+    border-bottom: 1px solid red;
+    border-radius: 11px;
+}
+.contact
+{
+    text-decoration: none;
+    color: red;
+}
+.contact:hover
+{
+    border-bottom: 1px solid red;
+    border-top: 1px solid white;
+    border-radius: 9px;
+}
+.footer
+{
+    background-color: red;
+    color: darkblue;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}

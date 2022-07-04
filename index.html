@@ -3,15 +3,53 @@
     <head>
         <meta lang="En-US">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial scale=1.0">
+        <!-- <meta name="viewport" content="width=device-width,initial scale=1.0"> -->
         <link type="icon.png" rel="icon" href="images/Solar System.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
         <title>Shahil Dhakal</title>
+        <script>
+            alert('This site is under maintainence. Thank you for the visit. For any querry, Please contact my mail. E-mail:dhakalshahil0@gmail.com')
+        </script>
     </head>
     <body>
-        <div>
-            <h1>Hello everyone, I am updating this website. Please have some patience.</h1>
+        <img name="slider" class="image" alt="Js sliding image feature">
+        <div class="intro">
+            <h4 class="name">Shahil Dhakal</h4>
+            <p class="bio">Student, Software Engineering</p>
         </div>
+        <div class="form">
+            <form method="post" action="https://www.google.com">
+                <p><label>Your Name: </label><input class="input" type="text"></p>
+                <p><label>Password: </label><input class="input" type="password"></p>
+                <p><input class="buttons" type="reset" value="Reset"> &nbsp; <input class="buttons" type="submit" value="Submit"></p>
+            </form>
+            <a class="contact" href="mailto:dhakalshahil0@gmail.com">Contact through mail</a>
+        </div>
+        <div class="footer">
+            Copyright by Shahil @ 2021
+        </div>
+        <script>
+            var i=0;
+            var images=[];
+            var time=200;
+
+            images[0]='images/icon.jpg';
+            images[1]='images/background.jpg';
+            images[2]='';
+
+            function imageSliding()
+            {
+                document.slider.src=images[i];
+                if(i<images.length-1)
+                {
+                    i++;
+                }
+                else
+                    i=0;
+                setTimeout=("imageSliding()",time);
+            }
+            window.onload=imageSliding;
+        </script>
     </body>
 </html>
