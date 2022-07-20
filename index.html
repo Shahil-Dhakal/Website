@@ -19,16 +19,27 @@
             <p class="bio">Student, Software Engineering</p>
         </div>
         <div class="form">
-            <form method="post" action="https://www.google.com">
-                <p><label>Your Name: </label><input class="input" type="text"></p>
-                <p><label>Password: </label><input class="input" type="password"></p>
-                <p><input class="buttons" type="reset" value="Reset"> &nbsp; <input class="buttons" type="submit" value="Submit"></p>
+            <form method="post" action="">
+                <p><label>Your Name: </label><input class="input" required type="text"></p>
+                <p><label>Password: </label><input class="input" required type="password"></p>
+                <p id="testing"></p>
+                <p><input type="reset" value="Reset" name="reset" class="buttons"></p>
+                <!-- <input type="submit" value="Submit" name="submit" onclick="display()" class="buttons"> -->
             </form>
-            <a class="contact" href="mailto:dhakalshahil0@gmail.com">Contact through mail</a>
-        </div>
+            <button type="submit" onclick="display()" class="buttons">Submit</button>
+            <p>
+                <a class="contact" href="mailto:dhakalshahil0@gmail.com">Contact through mail</a>
+            </p>
+            </div>
         <div class="footer">
             Copyright by Shahil @ 2021
         </div>
+        <script>
+            function display()
+            {
+                document.getElementById('testing').innerHTML = "The information you provided is wrong. Please input valid username and password.";
+            }
+        </script>
         <!-- <script>
             var i=0;
             var images=[];
