@@ -1,78 +1,117 @@
-*
-{
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Lobster&display=swap');
+/* font-family: 'Grenze Gotisch', cursive; */
+
+
+
+/* -------------------------------------- */
+
+
+*{
+    /* background-color: black; */
 }
+
+
 .image
 {
-    height: 300px;
-    width: 200;
-    border-radius: 300px;
-    border-top: 3px solid white;
-    border-bottom: 2px solid red;
-    margin-top: 50px;
-    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.profileImage
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-bottom: 3px solid #FF0000;
+}
+
+
+.intro
+{
+    line-height: 0%;
+    text-align: center;
 }
 .name
 {
-    position: inherit;
-    text-align: center;
-    color: red;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    color: #FF0000;
+    font-family: 'Grenze Gotisch', cursive;
     font-weight: 200;
-    letter-spacing: 4px;
-    font-size: larger;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
+    letter-spacing: 2px;
 }
 .bio
 {
-    font-size: 11px;
-    text-align: center;
-    color: red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #8B0000;
+    font-family: 'Grenze Gotisch', cursive;
 }
-.intro
+
+
+.headText
 {
-    line-height: 0.2;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 20px;
+    color: #8B0000;
+    text-align: center ;
 }
-.form
+
+.text
 {
-    color: red;
-    text-align: center;
-    margin-top: 90px;
+    color: #8B0000;
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
 }
-.input
+
+.container
 {
-    color: white;
+    display: flex;
+    margin-top: 20px;
 }
-.buttons
+.container > div
 {
-    color: red;
-    border-bottom: 1px solid red;
-    border-radius: 11px;
-}
-.contact
-{
-    text-decoration: none;
-    color: red;
-}
-.contact:hover
-{
-    border-bottom: 1px solid red;
-    border-top: 1px solid white;
+    margin: 0px 15px 15px;
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+    border: 3px solid #8B0000 ;
     border-radius: 9px;
+    border-bottom: none;
 }
+
+.container_img
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.karya
+{
+    background-image:url(images/construction_cover.jpg);
+}
+.blogspot
+{
+    background-image: url(images/blogs_background.jpg);
+}
+.collegeSite
+{
+    background-image: url(images/pic3.png);
+}
+.notesHub
+{
+    background-image: url(images/pic1.png);
+}
+
 .footer
 {
-    background-color: red;
-    color: darkblue;
-    position: absolute;
-    bottom: 0;
-    left: 45%;
-}
-@media screen and (max-width: 1000px) {
-    .column1 {
-        width: 100%;
-        position: static;
-    }
-    .column2 {
-    }
+    background-color: #FF0000;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Grenze Gotisch', cursive;
+    border-radius: 8px;
 }

@@ -3,64 +3,53 @@
     <head>
         <meta lang="En-US">
         <meta charset="utf-8">
-        <!-- <meta name="viewport" content="width=device-width,initial scale=1.0"> -->
+        <meta name="viewport" content="width=device-width,initial scale=1.0">
         <link type="icon.png" rel="icon" href="images/Solar System.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
         <link rel="stylesheet" href="style.css">
         <title>Shahil Dhakal</title>
         <script>
-            alert('This site is under maintainence. Thank you for the visit. For any querry, Please contact my mail. E-mail:dhakalshahil0@gmail.com')
+            alert('This site is under maintainence. Thank you for the visit. For any querry, Please contact my mail. E-mail:dhakalshahil0@gmail.com');
         </script>
     </head>
     <body>
-        <img src="images/icon.jpg" class="image" alt="Js sliding image feature">
+        <div class="image">
+            <img src="images/pic2.png" class="profileImage" alt="Shahil">
+        </div>
+
         <div class="intro">
             <h4 class="name">Shahil Dhakal</h4>
             <p class="bio">Student, Software Engineering</p>
         </div>
-        <div class="form">
-            <form method="post" action="">
-                <p><label>Your Name: </label><input class="input" required type="text"></p>
-                <p><label>Password: </label><input class="input" required type="password"></p>
-                <p id="testing"></p>
-                <p><input type="reset" value="Reset" name="reset" class="buttons"><input type="button" value="Submit" name="submit" class="buttons" onclick="display()"></p>
-                <!-- <input type="submit" value="Submit" name="submit" onclick="display()" class="buttons"> -->
-            </form>
-            <!-- <button type="submit" onclick="display()" class="buttons">Submit</button> -->
-            <p>
-                <a class="contact" href="mailto:dhakalshahil0@gmail.com">Contact through mail</a>
-            </p>
-            </div>
-        <div class="footer">
-            Copyright by Shahil @ 2021
+
+        <div>
+            <p class="headText"><u>My Works</u></p>            
         </div>
-        <script>
-            function display()
-            {
-                document.getElementById('testing').innerHTML = "The information you provided is wrong. Please input valid username and password.";
-            }
-        </script>
-        <!-- <script>
-            var i=0;
-            var images=[];
-            var time=200;
 
-            images[0]='images/icon.jpg';
-            images[1]='images/background.jpg';
-            images[2]='';
+        <div class="container">
+            <div class="container_img karya"></div>
+            <div class="container_img blogspot"></div>
+            <div class="container_img collegeSite"></div>
+            <div class="container_img notesHub"></div>
+        </div>
 
-            function imageSliding()
-            {
-                document.slider.src=images[i];
-                if(i<images.length-1)
-                {
-                    i++;
-                }
-                else
-                    i=0;
-                setTimeout=("imageSliding()",time);
-            }
-            window.onload=imageSliding;
-        </script> -->
+        <div>
+            <p class="headText"><u>About Me</u></p>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div>
+            <p class="headText"><u>Contact Me</u></p>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p style="text-align: center;">
+                You can contact me through mail: <a href="mailto:dhakalshahil0@gmail.com">Email Shahil</a>
+                <br>
+                <a href="tel:+977 9844200409">Call Shahil</a>
+            </p>
+        </div>
+
+        <div class="footer">
+            Copyright @2021 Shahil Dhakal
+        </div>
     </body>
 </html>
