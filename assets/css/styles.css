@@ -1,14 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+	/* You can add global styles to this file, and also import other style files */
 
 
-/*
-#ffd700
-#115173
-#053f5e
-#022c43
-*/
+	/*
+	#ffd700
+	#115173
+	#053f5e
+	#022c43
+	*/
 
-@font-face {
+  @font-face {
 	font-family: 'icomoon';
 	src: url('../fonts/icomoon.ttf') format('truetype');
 	font-weight: normal;
