@@ -5,3 +5,6 @@ document.getElementById('bullet').addEventListener('click', function() {
     // window.location.href = 'https://www.google.com';
     window.open('https://www.google.com','_blank')
 });
+
+//alert message
+alert("This Website is a canvas in progress, bursting with creativity and potential. Stay tuned for an enchanting fusion of design and functionality. Questions? Don't hesitate to reach out. Your visit is truly appreciated!");
