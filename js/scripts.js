@@ -7,4 +7,4 @@ document.getElementById('bullet').addEventListener('click', function() {
 });
 
 //alert message
-alert("This Website is a canvas in progress, bursting with creativity and potential. Stay tuned for an enchanting fusion of design and functionality. Questions? Don't hesitate to reach out. Your visit is truly appreciated!");
+alert("This is a canvas in progress, bursting with creativity and potential. Stay tuned for an enchanting fusion of design and functionality. Questions? Don't hesitate to reach out. Your visit is truly appreciated!");
